@@ -1,0 +1,220 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>TVPSS Batu Pahat</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* Layout: centred single-column, full-height, branded */
+  :root {
+    --bg: #f0f4f8;
+    --surface: #ffffff;
+    --fg: #1a2b3c;
+    --muted: #5a7080;
+    --accent: #0057a8;
+    --accent-light: #e8f0fb;
+    --border: #d0dce8;
+    --btn-fg: #ffffff;
+    --shadow: 0 2px 16px rgba(0,87,168,0.10);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1821;
+      --surface: #162132;
+      --fg: #ddeeff;
+      --muted: #7a9ab0;
+      --accent: #4a9edd;
+      --accent-light: #0d2340;
+      --border: #1e3450;
+      --btn-fg: #ffffff;
+      --shadow: 0 2px 20px rgba(0,0,0,0.4);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1821;
+    --surface: #162132;
+    --fg: #ddeeff;
+    --muted: #7a9ab0;
+    --accent: #4a9edd;
+    --accent-light: #0d2340;
+    --border: #1e3450;
+    --btn-fg: #ffffff;
+    --shadow: 0 2px 20px rgba(0,0,0,0.4);
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 48px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 40px 36px 36px;
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 64px;
+    height: 64px;
+    background: var(--accent-light);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+  }
+
+  .logo svg {
+    width: 34px;
+    height: 34px;
+    fill: var(--accent);
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--fg);
+    line-height: 1.3;
+    text-wrap: balance;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.6;
+    margin-bottom: 32px;
+    text-wrap: balance;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--accent);
+    color: var(--btn-fg);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 14px 28px;
+    width: 100%;
+    transition: opacity 0.15s, transform 0.1s;
+    cursor: pointer;
+    border: none;
+  }
+
+  .btn:hover { opacity: 0.88; }
+  .btn:active { transform: scale(0.98); }
+
+  .btn svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+    flex-shrink: 0;
+  }
+
+  .notice {
+    margin-top: 20px;
+    background: var(--accent-light);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.6;
+    text-align: left;
+    display: none;
+  }
+
+  .notice.visible { display: block; }
+
+  .notice strong { color: var(--fg); }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 28px 0 20px;
+  }
+
+  .footer {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 28px;
+    text-align: center;
+    line-height: 1.6;
+  }
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+<div class="card">
+  <div class="logo">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21 6.375v11.25A2.625 2.625 0 0 1 18.375 20.25H5.625A2.625 2.625 0 0 1 3 17.625V6.375A2.625 2.625 0 0 1 5.625 3.75h12.75A2.625 2.625 0 0 1 21 6.375ZM9 9.75v4.5l4.5-2.25L9 9.75Z"/>
+    </svg>
+  </div>
+
+  <p class="eyebrow">PKG Daerah Batu Pahat</p>
+  <h1>Dashboard TVPSS</h1>
+  <p class="subtitle">Sistem Pemantauan TVPSS Sekolah-sekolah Daerah Batu Pahat</p>
+
+  <a id="dashBtn" class="btn" href="https://script.google.com/macros/s/AKfycbz8XxyOxCIbdluMchYDkCfYi5d_2XgImk7FFsvyeo_Nc3xNaaw6GNImikfJ6rNec7C3dA/exec" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24"><path d="M13 3h8v8l-2-2-5 5-4-4-6 6-1.5-1.5 7.5-7.5 4 4 4-4-2.5-2.5Z"/></svg>
+    Buka Dashboard
+  </a>
+
+  <div class="notice" id="mobileNotice">
+    <strong>Masalah membuka dashboard?</strong><br>
+    Jika ralat muncul di Chrome, sila log keluar dari akaun Google peribadi dalam Chrome dan pastikan akaun <strong>@moe-dl.edu.my</strong> aktif, atau guna <strong>mod Incognito</strong> (tetingkap peribadi).
+  </div>
+
+  <hr class="divider">
+
+  <p style="font-size:13px; color:var(--muted); line-height:1.6;">
+    Untuk kemaskini data TVPSS sekolah anda, akses melalui butang <strong style="color:var(--fg)">Kemas Kini Data</strong> dalam dashboard.
+  </p>
+</div>
+
+<p class="footer">PKG Daerah Batu Pahat · Johor · Malaysia</p>
+
+<script>
+  // Papar notis tambahan jika diakses dari Chrome mobile
+  (function() {
+    var ua = navigator.userAgent || '';
+    var isChrome = /Chrome\//.test(ua) && !/Chromium|EdgA|OPR|SamsungBrowser|Firefox/.test(ua);
+    var isMobile = /Android|iPhone|iPad/.test(ua);
+    if (isChrome && isMobile) {
+      document.getElementById('mobileNotice').classList.add('visible');
+    }
+  })();
+</script>
+
+</body></html>
